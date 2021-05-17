@@ -128,6 +128,7 @@ class UsersScreen extends StatelessWidget {
                                         children: <Widget>[
                                           TextFormField(
                                             controller: idCont,
+                                            enabled: false,
                                             decoration: InputDecoration(
                                               labelText: 'ID',
                                               icon: Icon(Icons.account_box),
@@ -135,6 +136,7 @@ class UsersScreen extends StatelessWidget {
                                           ),
                                           TextFormField(
                                             controller: userCont,
+                                            enabled: false,
                                             decoration: InputDecoration(
                                               labelText: 'Username',
                                               icon: Icon(Icons.text_fields),
