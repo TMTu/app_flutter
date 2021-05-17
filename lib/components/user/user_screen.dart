@@ -259,6 +259,12 @@ class UsersScreen extends StatelessWidget {
           floatingActionButton: FloatingActionButton(
             child: Icon(Icons.add),
             onPressed: () {
+              idCont.text = "";
+              userCont.text = "";
+              emailCont.text = "";
+              firstNameCont.text = "";
+              lastNameCont.text = "";
+              descriptionCont.text = "";
               showDialog(
                   context: context,
                   builder: (BuildContext context) {
